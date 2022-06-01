@@ -46,3 +46,18 @@ console.log(!0); //true
 console.log('Z' > 'A'); //true
 console.log('Swiggy' > 'Swing'); //false
 console.log('2' > '1'); //true
+
+//----------------Logical----------------
+
+//OR(||) - returns first truth value
+console.log(0 || 1); //1
+console.log(1 || 2); //1
+
+//AND(&&) - returns first falsy value
+console.log(0 && 2); //0
+console.log(2 && 0); //0
+console.log(1 && 2); //2
+
+//NOT(!) - return opposite value
+console.log(!true); //false
+console.log(!2); //false
