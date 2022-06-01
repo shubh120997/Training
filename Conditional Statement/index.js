@@ -28,3 +28,15 @@ switch(b){
         console.log("Other numbers");
         break;
 }
+
+//-----------------conditional operator ?-----------------
+let c = 3;
+let result = (c == 3)?true:false;
+console.log(result);
+
+//-----------------Nullish coalescing operator '??'-----------------
+let d;
+console.log(d ?? 'App'); //App
+//if d is null or undefined it returns next value otherwise it returns first value
+console.log('App' ?? 'Zoom'); //App
+console.log(0 ?? 'Zoom'); //0
